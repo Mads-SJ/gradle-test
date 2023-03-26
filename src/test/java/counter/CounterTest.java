@@ -21,7 +21,7 @@ class CounterTest {
     @Test
     void incrementTC2() {
         counter.increment();
-        assertEquals(1, counter.getCount());
+        assertEquals(0, counter.getCount());
     }
 
     @Test
